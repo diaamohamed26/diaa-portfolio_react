@@ -1,5 +1,5 @@
 import {
-  Github, Linkedin, Mail, Phone, ArrowUpRight,
+  Mail, Phone, ArrowUpRight,
   Code2, BrainCircuit, Layers3, Menu, X
 } from "lucide-react";
 import { useState } from "react";
@@ -152,10 +152,10 @@ function App() {
 
           <div className="hero-socials">
             <a href="https://github.com/diaamohamed26" target="_blank" rel="noreferrer" aria-label="GitHub">
-              <Github />
+              <Code2 />
             </a>
             <a href="https://linkedin.com/in/diaa-mohamed-a50460125" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <Linkedin />
+              <Layers3 />
             </a>
             <a href={`https://wa.me/${whatsapp}`} target="_blank" rel="noreferrer" aria-label="WhatsApp">
               <Phone />
@@ -292,7 +292,7 @@ function App() {
         </div>
 
         <a className="button button-outline github-button" href="https://github.com/diaamohamed26" target="_blank" rel="noreferrer">
-          More on GitHub <Github size={18} />
+          More on GitHub <Code2 size={18} />
         </a>
       </section>
 
@@ -323,8 +323,8 @@ function App() {
         <a className="brand" href="#home">DIAA<span>.</span></a>
         <p>Designed & built by Diaa Mohamed © {new Date().getFullYear()}</p>
         <div className="footer-socials">
-          <a href="https://github.com/diaamohamed26" target="_blank" rel="noreferrer"><Github /></a>
-          <a href="https://linkedin.com/in/diaa-mohamed-a50460125" target="_blank" rel="noreferrer"><Linkedin /></a>
+          <a href="https://github.com/diaamohamed26" target="_blank" rel="noreferrer"><Code2 /></a>
+          <a href="https://linkedin.com/in/diaa-mohamed-a50460125" target="_blank" rel="noreferrer"><Layers3 /></a>
           <a href={`mailto:${email}`}><Mail /></a>
         </div>
       </footer>
